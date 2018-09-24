@@ -5,3 +5,6 @@ Los casos que se especificaron, cada uno se peude ver en el directorio [features
 - Como usuario, quiero escuchar un episodio de un podcast via streaming para entretenerme.
 - Como usuario, quiero almacenar un episodio de un podcast para escucharlo luego.
 - Como usuario, quiero esuchar un episodio de un podcast que tengo guardado en mi dispositivo para entretenerme.
+
+## Instrucciones
+Para ejecutar las pruebas, corra el commando `calabash-android run AntennaPod_v1.6.5_apkpure.com.com.apk` en este directorio.
