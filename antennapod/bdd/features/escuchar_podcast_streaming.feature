@@ -1,7 +1,12 @@
-Feature: Opening the help screen
+Feature: Calculating the taxi fare
 
-  Scenario: As a user I want to be able to open the help screen from the side menu the first time I open the app
-    Given I press "Paraderos"               
+  Scenario: AS an user, I want to be able to listen an episode via streaming
     When I swipe left
-    And I press "Ayuda"
-    Then I should see "Calcular ruta con horario"
+    And I press "Abonnements"
+    Then I press "Une Histoire et ... Oli" 
+    Then I should see "France Inter"
+    Then I press "Le renard et la poulailler, par Guillaume Meurice"
+    Then I should see "Télécharger"
+    Then I should see "Lire en ligne"
+    Then I press "Lire en ligne"
+    Then I should see "durée : 00:10:06 - Le renard et le poulailler par Guillaume Meurice"

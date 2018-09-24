@@ -1,9 +1,12 @@
 Feature: Calculating the taxi fare
 
-  Scenario: AS an user, I want to be able to calculate the fare of a taxi ride              
+  Scenario: AS an user, I want to be able to listen an episode via streaming
     When I swipe left
-    And I press "Taxímetro"
-    Then I enter "130" into input field 
-    Then I should see "$11.400"
-    Then I should see "Unidades"    
-    Then I should see "Recargos"
+    And I press "Abonnements"
+    Then I press "Les lumiéres dans la nuit" 
+    Then I should see "France Inter"
+    Then I press "Le teléhone pleure"
+    Then I should see "Télécharger"
+    Then I should see "Lire en ligne"
+    Then I press "Telécharger"
+    Then I should see "lire"
